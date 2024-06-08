@@ -2,11 +2,18 @@
   "name": "save-your-files",
   "displayName": "Save your files!",
   "description": "A extension which saves your open files if you don't do it.",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "publisher": "TiloKlarenbeek",
+  "icon": "https://raw.githubusercontent.com/Tilo-K/save-your-files/master/logo.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tilo-K/save-your-files.git"
+  },
   "engines": {
     "vscode": "^1.90.0"
   },
   "categories": [
+    "Education",
     "Other"
   ],
   "activationEvents": [
@@ -14,18 +21,12 @@
   ],
   "main": "./out/extension.js",
   "contributes": {
-    "commands": [
-      {
-        "command": "save-your-files.helloWorld",
-        "title": "Hello World"
-      }
-    ]
   },
   "scripts": {
-    "vscode:prepublish": "pnpm run compile",
+    "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
-    "pretest": "pnpm run compile && pnpm run lint",
+    "pretest": "npm run compile && npm run lint",
     "lint": "eslint src --ext ts",
     "test": "node ./out/test/runTest.js"
   },
