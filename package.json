@@ -2,9 +2,10 @@
   "name": "save-your-files",
   "displayName": "Save your files!",
   "description": "A extension which saves your open files if you don't do it.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "TiloKlarenbeek",
   "icon": "logo.png",
+  "homepage": "https://klarenbeek.de",
   "repository": {
     "type": "git",
     "url": "https://github.com/Tilo-K/save-your-files.git"
