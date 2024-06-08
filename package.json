@@ -4,7 +4,7 @@
   "description": "A extension which saves your open files if you don't do it.",
   "version": "0.0.2",
   "publisher": "TiloKlarenbeek",
-  "icon": "https://raw.githubusercontent.com/Tilo-K/save-your-files/master/logo.png",
+  "icon": "logo.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/Tilo-K/save-your-files.git"
